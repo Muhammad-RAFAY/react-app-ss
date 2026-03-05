@@ -26,7 +26,7 @@ jobs:
         run: |
           docker build -t rafysoomro/react-app-ss:latest .
 
-      # 4️⃣ Push the Docker image to DockerHub
+      # 4️⃣ Push the Docker image to DockerHub 
       - name: Push Docker Image
         run: |
           docker push rafysoomro/react-app-ss:latest
