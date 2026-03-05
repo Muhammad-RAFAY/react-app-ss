@@ -22,7 +22,7 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       # 3️⃣ Build the Docker image
-      - name: Build Docker Image
+      - name: Build Docker Image 
         run: |
           docker build -t rafysoomro/react-app-ss:latest .
 
