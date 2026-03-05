@@ -41,5 +41,5 @@ jobs:
           script: |
             docker stop react-container || true
             docker rm react-container || true
-            docker pull ${{ secrets.DOCKER_USERNAME }}/react-app-ss:latest
-            docker run -d -p 3000:80 --name react-container ${{ secrets.DOCKER_USERNAME }}/react-app-ss:latest
+            docker pull rafysoomro/react-app-ss:latest
+            docker run -d -p 3000:80 --name react-container rafysoomro/react-app-ss:latest
